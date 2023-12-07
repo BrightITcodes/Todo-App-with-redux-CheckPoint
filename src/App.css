@@ -1,0 +1,62 @@
+.Done{
+  text-decoration: line-through;
+}
+.App {
+  background: #20adee;
+  height: 100vh;
+  padding: 30px;
+  text-align:left;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  width: 1000px;
+  padding: 5px; 
+  margin:4% 0; 
+  padding: 10px;
+  height:400px;
+  text-align:center;
+}
+
+.task {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+input {
+  outline: none;
+  border: 1px solid #5d0cff;
+  padding: 10px 22px 10px 10px;
+  background: transparent;
+  width: 1000px;
+  border-radius: 4px 0 0 4px;
+  color: white;
+}
+.add button {
+  outline: none;
+  border: none;
+  padding: 11px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+}
+
+.btn-space {
+  margin-right: 15px;
+}
+
+h1{
+  text-align:center;
+}
